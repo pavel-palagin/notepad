@@ -12,10 +12,6 @@ while power_on:
                 print(name)
                 search_select = main.search_select()
             if search_select == 2:
-                phone_number = main.search()
-                print(phone_number)
-                search_select = main.search_select()
-            if search_select == 3:
                 break
     if func_select == 2:
             while True:

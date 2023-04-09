@@ -67,8 +67,7 @@ def function_select():
 def search_select():
     srch_select = input('Выберите режим поиска:\
         1. Поиск по ID\
-        2. Поиск по дате\
-        3. Назад ')
+        2. Назад ')
     if not srch_select.isdigit() and int(srch_select)<1 or int(srch_select)>3:
         print('Вы ввели недопустимое значение, попробуйте снова ')
         srch_select = search_select()
