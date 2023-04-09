@@ -1,4 +1,4 @@
-import input
+import input_data
 import main
 
 power_on = True
@@ -19,7 +19,7 @@ while power_on:
                 break
     if func_select == 2:
             while True:
-                redact = main.note_redact()
+                redact = main.notepad_redact()
                 if redact == 1:
                     note = main.new_note()
                     print(f'Новая заметка {note} добавлена в список ')
@@ -34,6 +34,5 @@ while power_on:
        main.notepad_read()
        print()
     if func_select == 4:
-            print('Спасибо, что пользуетесь нашим приложением. До свидания ')
             print()
             power_on = False
